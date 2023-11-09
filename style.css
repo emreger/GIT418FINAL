@@ -1,0 +1,204 @@
+/*Author Emily Reger - 2023*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Google font  Raleway Regular/ Regular Italic, Bold, Bold Italic*/
+
+/* REST CODE */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* --------END OF RESET-------- */
+
+:root {
+    --dark-brown: #0c0909;
+    --pastel-teal: #6c9a8b;
+    --lemon-chiffon: #FAF0ca;
+    --orange: #ee964b;
+    --red: #f95738;
+}
+
+/* HTML/BODY/MAIN */
+html {
+    font-family: 'Raleway', sans-serif;
+ }
+
+ body{
+    background-color: var(--lemon-chiffon);
+ }
+
+ main {
+    margin: auto;
+    width: 900px;
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+
+ /* header and footer */
+ header, footer {
+    background-color: var(--orange);
+    color: var(--lemon-chiffon);
+ }
+
+ header {
+    border-bottom: 10px solid var(--red);
+    height: 125px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
+ h1 {
+    font-size: 45px;
+    padding-left: 5%;
+    padding-top: 4%;
+    text-transform: lowercase;
+ }
+
+ footer {
+    height: 50px;
+    border-top: 7px solid var(--red);
+    text-align: center;
+ }
+
+ footer small {
+   margin-top: 10px;
+ }
+
+ nav {
+    padding-right: 4%;
+    padding-top: 6%;
+ }
+ 
+ nav ol {
+    font-size: 25px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+ }
+ 
+ a:link {
+    text-decoration: none;
+    color: var(--lemon-chiffon);
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: var(--lemon-chiffon);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  /* main */
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+    padding: 7px;
+ }
+ 
+ p {
+ padding: 10px;
+ }
+
+ .grid2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .grid3 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+ }
+
+  #dogImg img{
+   width: 90%;
+   padding: 10px;
+   margin: 10px;
+  }
+
+  /* Contact Section */
+form {
+   margin: auto;
+   width: 80%;
+   padding: 10px;
+   text-align: center;
+   background-color: var(--orange);
+   font-weight: bold;
+}
+
+input[type=text] {
+   width: 90%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+}
+
+button, input[type=submit] {
+   width: 90%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   background-color: var(--red);
+   font-weight: bold;
+   color: var(--lemon-chiffon);
+   border-radius: 5px;
+}
+
+#contactMsg {
+   text-align: center;
+}
+
+
+/* JQUERY Slick Plugin */
+/* Defines the width of the carousel and centers it on the page */
+
+div .slick-carousel {
+   margin: 0 auto;
+   width: 100%;
+ }
+ 

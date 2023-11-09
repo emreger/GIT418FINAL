@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Final</title>
+      <!-- Links I copied from Codepen -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" defer></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" defer></script>
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+      <!-- Slick JQuery plugins -->
+      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+      <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js" defer></script>
+      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+      <!-- My CSS and style sheets -->
+      <link href="style.css" rel="stylesheet">
+      <script src="script.js" defer></script> 
+   </head>
+   <body>
+        <header>
+            <h1>fur fur fur</h1>
+            <nav>
+                <ol>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                </ol>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <h2>A short history of Fur Fur Fur.</h2>
+
+                <section>
+                    <div>
+                        <p>Fur Fur Fur started out of the garage of it's founders in 2019. They helped clean and groom friends and families furbabies.
+                            In 2020, many more people were spending time at home with thier pets and realized how messy they can be, which lead a spike 
+                            in grooming services. In 2021 Fur Fur Fur opend a store front in NW Portland where they service up to 100 furbabies a month!
+                        </p>
+                        <p>
+                            Fur Fur Fur has many happy and satified customers! Here are 3 happy dogo customers!
+                        </p>
+                    </div>
+                    <div id="dogApi">
+                        <div class="grid3" id="dogImg"></div>
+                    </div>
+                </section>
+
+            </section>
+            <section id="services">
+                <h2 id="subsec-topic" class="sr-only">Services Offered</h2>
+		        <section id="accordion" class="subsec" aria-labelled-by="subsec-topic">
+			        <h5>Just a Wash</h5>
+			            <section class="no_shadow">
+				            <p> Wash only for short hair cats and dogs. Prices depending on the breed and size.</p>
+			            </section>
+			        <h5>Wash and Cut</h5>
+			            <section class="no_shadow">
+				            <p>This service includes washing and cutting. Depending on the breed on the animal 
+                                cutting may not be reccomended. In plece of cutting this this situation 
+                                de-sheding brushing is offered.
+                            </p>
+			            </section>
+			        <h5>Wash, Cut and Sanitary Groom</h5>
+			            <section class="no_shadow">
+                            <p>Includes other services and a Sanitary cleaning. This is reccomended for older animals.</p>
+			            </section>
+		        </section>
+            </section>
+            <section id="contact">
+                <h2>Contact Form</h2>
+                <form>
+                    <label for="fName">Enter Your Full Name:</label><br>
+                    <input type="text" name="fName" id="fName"><br>
+                    <label for="email">Enter Your email address:</label><br>
+                    <input type="text" name="email" id="email"><br>
+                    <label for="comment">Enter Your Comment Here:</label><br>
+                    <input type="text" name="comment" id="comment"><br>
+                    <input type="submit" name="contactSubmit" id="contactSubmit">
+                </form>
+                <p id="contactMsg"></p>
+            </section>
+            <section id="gallery">
+                <h2>Gallery</h2>
+                <div class = "slick-carousel" >
+                    <div><img src="http://placekitten.com/200/300" alt="Picture of a kitten"></div>
+                    <div><img src="http://placedog.net/200/300" alt="Picture of a dog"></div>
+                    <div><img src="http://placekitten.com/200/300" alt="Picture of a kitten"></div>
+                    <div><img src="http://placedog.net/200/300" alt="Picture of a dog"></div>
+                  </div>
+            </section>
+        </main>
+        <footer>
+            <p>Emily Reger GIT418 Final</p>
+        </footer>
+        
+   </body>
+   </html>
